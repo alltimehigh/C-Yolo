@@ -258,7 +258,7 @@ namespace test
                     float w = output[0, 2, i];
                     float h = output[0, 3, i];
 
-                    // 获取"YJ"类别的置信度（假设是第5个值）/ Get "YJ" class confidence (assumed to be the 5th value)
+                    // 获取类别的置信度（假设是第5个值）/ Get class confidence (assumed to be the 5th value)
                     float confidence = output[0, 4, i];
 
                     // 置信度阈值 / Confidence threshold
